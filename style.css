@@ -1,0 +1,116 @@
+body{
+/* background-color: rgba(82, 50, 83, 0.74); */
+margin:0;
+}
+#whole-body-section{
+    background-color:rgb(23, 72, 170);
+    /* padding:10%;  */
+    text-align: justify;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+#header{
+    padding:10%;
+    color:white;
+    /* background-color:rgb(23, 72, 170); */
+}
+nav{
+    width: 100%;
+    height:100px;
+    /* background-color: blue; */
+}
+.brand-name{
+    float:left;
+    /* background-color: bisque; */
+}
+ul{
+    float:right;
+    list-style-type:none;
+    /* background-color:aqua;    */
+}
+.alist{
+    color:white;
+}
+.alist:hover{
+    color:#000;
+}
+li{
+    display: inline;
+    margin:10px;
+    font-weight: bolder;
+    /* color:white; */
+    /* background-color: aqua; */
+
+}
+.content{  
+    width: 50%;
+    float:left;
+    font-family: 'Times New Roman', Times, serif;
+    /* color:white; */
+    /* background-color:blueviolet; */
+}
+.profilepic{
+    width:25%;
+    margin-left: auto;
+    display:block;
+}
+
+/* slide1 starts */
+.carousel-item{
+   padding-bottom: 5%; 
+}
+.slide{
+    background-color:aliceblue;
+    padding:5% 0 0 10%;
+    /* border-width: 5px; */
+    border-style:solid;
+    border-color:black;
+}
+.slidepic1{
+    width:20%;
+    padding-bottom: 2%;
+}
+.title1{
+    color:rgb(77, 11, 199);
+}
+.para1{
+    font-size: 20px;
+    font-family: sans sarif;
+    width: 30%; 
+}
+.info-button{
+    background-color:rgb(52, 213, 253);
+    border-radius: 5px;
+    border-color: rgb(4, 49, 131);
+}
+.info-button:hover{
+    background-color:rgb(43, 136, 223);
+    border-radius: 2px;
+    border-color: aliceblue;
+    transition: 0.2s;
+}
+
+/* slide1 ends */
+/* footer section starts */
+.footer-copyrights{
+    /* font-family: sans-serif; */
+    background-color:rgb(178, 186, 194);
+    padding:5% 5% 5% 40%;
+
+}
+.mapping{
+    /* background-color:rgb(23, 72, 170); */
+    padding:5% 0 5% 10%;
+}
+.map-para{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:30%;
+}
+.click-button{
+    background-color:antiquewhite;
+    border-radius: 2px;
+}
+.click-button:hover{
+    background-color:rgb(175, 139, 91);
+    border-radius: 3px;
+    transition:0.2s;
+}
